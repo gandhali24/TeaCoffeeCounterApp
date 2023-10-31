@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "65821018984",
+    "firebase_url": "https://teacoffeecounterapp-default-rtdb.firebaseio.com",
+    "project_id": "teacoffeecounterapp",
+    "storage_bucket": "teacoffeecounterapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:65821018984:android:adb4ee3fae68ce02e464dd",
+        "android_client_info": {
+          "package_name": "com.example.teacoffeecounterapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC-6RNXbCB8wp5yY-s4hoR4ket2SThdYA4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

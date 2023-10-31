@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+
+    tools:context=".TotalDataCountActivity">
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+
+    <TextView
+        android:id="@+id/tvTotalCount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Total Count"
+        android:textSize="20dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:background="@drawable/bg_rounded_corner"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:textStyle="bold"
+        android:gravity ="center" />
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center"  >
+
+        <TextView
+            android:id="@+id/tvTeaTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tea :"
+            android:textSize="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity ="center"
+           />
+        <TextView
+            android:id="@+id/tvTeaCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:gravity ="center" />
+
+    </LinearLayout>
+<!--        <View-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="2dp"-->
+<!--            android:layout_marginStart="40dp"-->
+<!--            android:layout_marginEnd="40dp"-->
+<!--            android:layout_marginTop="5dp"-->
+<!--            android:background="#c0c0c0"/>-->
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Tea (without sugar) :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+                android:id="@+id/tvTeaWithoutSugarCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+
+        </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Black Tea :"
+            android:textSize="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity ="center"
+            />
+        <TextView
+            android:id="@+id/tvBlackTeaCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:gravity ="center" />
+
+
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Milk :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+                android:id="@+id/tvMilkCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Milk (without sugar) :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+                android:id="@+id/tvMilkWithoutSugarCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+
+
+        </LinearLayout>
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        android:gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Coffee :"
+            android:textSize="16dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            android:gravity ="center"
+            />
+        <TextView
+
+            android:id="@+id/tvCoffeeCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Count"
+            android:textSize="18dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginTop="5dp"
+            android:textColor="@android:color/holo_blue_dark"
+            android:textStyle="bold"
+            android:gravity ="center" />
+    </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Coffee (without sugar) :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+
+                android:id="@+id/tvCoffeeWithoutSugarCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+        </LinearLayout>
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Black Coffee :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+
+                android:id="@+id/tvBlackCoffeeCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Green Tea :"
+                android:textSize="16dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/black"
+                android:textStyle="bold"
+                android:gravity ="center"
+                />
+            <TextView
+
+                android:id="@+id/tvGreenTeaCount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Count"
+                android:textSize="18dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginTop="5dp"
+                android:textColor="@android:color/holo_blue_dark"
+                android:textStyle="bold"
+                android:gravity ="center" />
+        </LinearLayout>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+
+                    android:layout_marginTop="5dp"
+                    android:background="#c0c0c0"/>
+        <!--    <com.google.android.flexbox.FlexboxLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:justifyContent="space_evenly"-->
+<!--        android:layout_marginTop="30dp"-->
+<!--        android:visibility="gone"-->
+
+<!--        >-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tea :"-->
+<!--            android:visibility="visible"-->
+<!--            android:textSize="18dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvTeaCount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="0"-->
+<!--            android:background="@drawable/bg_rounded_corner"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Tea (without sugar) :"-->
+<!--            android:visibility="visible"-->
+<!--            android:textSize="18dp"-->
+<!--            />-->
+<!--        <TextView-->
+<!--            android:id="@+id/tvTeaWithoutSugarCount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="0"-->
+<!--            android:background="@drawable/bg_rounded_corner"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@android:color/black"-->
+<!--            android:textSize="18dp"-->
+<!--            />-->
+
+
+
+
+<!--    </com.google.android.flexbox.FlexboxLayout>-->
+
+
+<!--     <com.google.android.flexbox.FlexboxLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        app:justifyContent="space_evenly"-->
+<!--        android:layout_marginTop="20dp"-->
+<!--         android:visibility="gone"-->
+
+<!--        >-->
+
+<!--        <TextView-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="Black Tea :"-->
+<!--            android:visibility="visible"-->
+
+<!--            android:textSize="18dp"-->
+<!--            />-->
+
+<!--        <TextView-->
+<!--            android:id="@+id/tvBlackTeaCount"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:text="0"-->
+<!--            android:background="@drawable/bg_rounded_corner"-->
+<!--            android:textSize="18dp"-->
+<!--            android:textStyle="bold"-->
+<!--            android:textColor="@android:color/black"/>-->
+
+
+<!--         <TextView-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:text="Coffee :"-->
+<!--             android:visibility="visible"-->
+
+<!--             android:textSize="18dp" />-->
+<!--         <TextView-->
+<!--             android:id="@+id/tvCoffeeCount"-->
+<!--             android:layout_width="wrap_content"-->
+<!--             android:layout_height="wrap_content"-->
+<!--             android:text="0"-->
+<!--             android:background="@drawable/bg_rounded_corner"-->
+<!--             android:textStyle="bold"-->
+<!--             android:textColor="@android:color/black"-->
+<!--             android:textSize="18dp"/>-->
+
+
+<!--     </com.google.android.flexbox.FlexboxLayout>-->
+<!--        <com.google.android.flexbox.FlexboxLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:justifyContent="space_around"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:visibility="gone"-->
+
+<!--            >-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Black Coffee :"-->
+<!--                android:visibility="visible"-->
+<!--                android:textSize="18dp" />-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvBlackCoffeeCount"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="0"-->
+<!--                android:background="@drawable/bg_rounded_corner"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textSize="18dp"/>-->
+
+
+
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Coffee (without sugar) :"-->
+<!--                android:visibility="visible"-->
+<!--                android:textSize="18dp"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvCoffeeWithoutSugarCount"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="0"-->
+<!--                android:background="@drawable/bg_rounded_corner"-->
+
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                android:textSize="18dp"/>-->
+
+<!--        </com.google.android.flexbox.FlexboxLayout>-->
+<!--        <com.google.android.flexbox.FlexboxLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            app:justifyContent="space_evenly"-->
+<!--            android:layout_marginTop="20dp"-->
+<!--            android:visibility="gone"-->
+
+<!--            >-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Green Tea :"-->
+<!--                android:visibility="visible"-->
+<!--                android:textSize="18dp"-->
+<!--                />-->
+<!--            <TextView-->
+<!--                android:id="@+id/tvGreenTeaCount"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text=""-->
+<!--                android:background="@drawable/bg_rounded_corner"-->
+<!--                android:textSize="18dp"-->
+<!--                android:layout_marginStart="-80dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:textColor="@android:color/black"-->
+<!--                />-->
+
+<!--        </com.google.android.flexbox.FlexboxLayout>-->
+
+
+
+<!--    <LinearLayout-->
+<!--        android:visibility="gone"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal"-->
+<!--        android:layout_weight="3"-->
+<!--        android:layout_marginTop="10dp"-->
+
+<!--        >-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_marginStart="10dp"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical">-->
+
+<!--        <TextView-->
+<!--    android:layout_width="wrap_content"-->
+<!--    android:layout_height="wrap_content"-->
+<!--           android:text="Tea Count"-->
+<!--            android:textSize="14dp"/>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvTeaCount1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Tea Count"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginStart="15dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Black Tea"-->
+<!--                android:textSize="14dp"/>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvBlackTeaCount1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Black Tea"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginStart="15dp">-->
+
+<!--            <TextView-->
+
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Coffee"-->
+<!--                android:textSize="14dp"/>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvCoffeeCount1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Coffee"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginStart="15dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Black Coffee"-->
+<!--                android:textSize="14dp"/>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvBlackCoffeeCount1"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Coffee"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="vertical"-->
+<!--            android:layout_marginStart="15dp">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Green Tea"-->
+<!--                android:textSize="14dp"/>-->
+
+
+
+<!--            <TextView-->
+<!--                android:id="@+id/tvGreenTea_Count11"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="GreenTea"-->
+<!--                android:layout_marginTop="5dp"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textColor="@android:color/black"/>-->
+
+
+<!--        </LinearLayout>-->
+<!--        </LinearLayout>-->
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@android:color/white"
+      />
+</LinearLayout>
+</ScrollView>
